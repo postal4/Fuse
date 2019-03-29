@@ -1,4 +1,4 @@
-FROM ruby:2.3.1-slim
+FROM ruby:latest
 
 RUN apt-get update && \
     apt-get install -y curl libltdl-dev bash
